@@ -24,6 +24,18 @@ Open `http://localhost:4080`.
 
 By default, integrations are disabled. Enable only the ones you have configured.
 
+## OpenCode Install Wizard
+
+If you use OpenCode, this repository includes an installation wizard command:
+
+```text
+/instalar_dash
+```
+
+The command guides you through `.env` configuration, Docker Compose validation, deployment and health checks.
+
+Command file: `.opencode/command/instalar_dash.md`.
+
 ## Configuration
 
 Copy `.env.example` to `.env` and fill your values.
