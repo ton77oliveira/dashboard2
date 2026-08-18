@@ -1,0 +1,9 @@
+services:
+  dashboard2:
+    build: .
+    image: dashboard2:latest
+    restart: unless-stopped
+    ports:
+      - "4080:80"
+    env_file:
+      - .env

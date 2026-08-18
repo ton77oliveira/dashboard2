@@ -1,0 +1,17 @@
+{
+  "name": "dashboard2-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "fastify": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
